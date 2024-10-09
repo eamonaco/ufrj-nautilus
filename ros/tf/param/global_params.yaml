@@ -1,0 +1,18 @@
+# Todos os dados terão formato {child}_{header} : [semieixo_x, semieixo_y, sentido (1: horário, -1: antihorário), velocidade angular]
+
+# As órbitas são elípticas, por isso a existência dos dados dos semieixos.
+
+# Planetas
+
+mercury_sun: [2, 1, 1, 4.15]
+venus_sun: [3, 2, -1, 1.62]
+earth_sun: [4, 3, 1, 1.0] # Obs: Terra tem a velocidade angular base!
+mars_sun: [5, 4, -1, 0.53]
+jupiter_sun: [6, 5, 1, 0.084]
+saturn_sun: [7, 6, -1, 0.033]
+uranus_sun: [8, 7, 1, 0.011]
+neptune_sun: [9, 8, -1, 0.006]
+
+# Satélites
+
+moon_earth: [0.5, 0.5, -1, 13.36]
