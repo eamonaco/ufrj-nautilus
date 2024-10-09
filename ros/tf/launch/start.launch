@@ -1,0 +1,7 @@
+<launch>
+	<rosparam file='$(find tf)/param/global_params.yaml'/>
+	<node pkg='tf' name='pose_publisher' type='pose_publisher.py'/>
+	<node pkg='tf' name='transform_frames' type='transform_frames.py'/>	
+
+
+</launch>
